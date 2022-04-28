@@ -11,6 +11,7 @@ metadata:
     app.kubernetes.io/name: ingress-nginx
   annotations:
   name: ingress-nginx-controller
+  namespace: ingress-nginx
 spec:
   externalTrafficPolicy: Local
   ipFamilies:
@@ -44,6 +45,7 @@ metadata:
     app.kubernetes.io/instance: ingress-nginx
     app.kubernetes.io/name: ingress-nginx
   name: ingress-nginx-controller-admission
+  namespace: ingress-nginx
 spec:
   ports:
   - appProtocol: https
