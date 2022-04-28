@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/instance: ingress-nginx
     app.kubernetes.io/name: ingress-nginx
   name: ingress-nginx-admission-create
-  namespace: ingress-nginx
+
 spec:
   template:
     metadata:
@@ -53,7 +53,7 @@ metadata:
     app.kubernetes.io/instance: ingress-nginx
     app.kubernetes.io/name: ingress-nginx
   name: ingress-nginx-admission-patch
-  namespace: ingress-nginx
+
 spec:
   template:
     metadata:
